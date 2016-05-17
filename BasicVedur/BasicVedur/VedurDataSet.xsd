@@ -2,14 +2,15 @@
 <xs:schema id="VedurDataSet" targetNamespace="http://tempuri.org/VedurDataSet.xsd" xmlns:mstns="http://tempuri.org/VedurDataSet.xsd" xmlns="http://tempuri.org/VedurDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="AllarVeðurstöðarConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AllarVeðurstöðarConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BasicVedur.Properties.Settings.GlobalReference.Default.AllarVeðurstöðarConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="vedurDataBaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="vedurDataBaseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BasicVedur.Properties.Settings.GlobalReference.Default.vedurDataBaseConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LandshlutarTableAdapter" GeneratorDataComponentClassName="LandshlutarTableAdapter" Name="Landshlutar" UserDataComponentName="LandshlutarTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="AllarVeðurstöðarConnectionString (Settings)" DbObjectName="AllarVeðurstöðar.dbo.Landshlutar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="vedurDataBaseConnectionString (Settings)" DbObjectName="vedurDataBase.dbo.Landshlutar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM [dbo].[Landshlutar] WHERE (([Id] = @Original_Id))</CommandText>
@@ -54,7 +55,7 @@ SELECT Id, Nafn FROM Landshlutar WHERE (Id = @Id)</CommandText>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="StadirTableAdapter" GeneratorDataComponentClassName="StadirTableAdapter" Name="Stadir" UserDataComponentName="StadirTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="AllarVeðurstöðarConnectionString (Settings)" DbObjectName="AllarVeðurstöðar.dbo.Stadir" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="vedurDataBaseConnectionString (Settings)" DbObjectName="vedurDataBase.dbo.Stadir" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM [dbo].[Stadir] WHERE (([Id] = @Original_Id) AND ([WMO-Númer] = @p2) AND ([Skammsstöfun] = @Original_Skammsstöfun) AND ([Spásvæði] = @Original_Spásvæði) AND ([Hæð yfir sjó] = @Original_Hæð_yfir_sjó) AND ([Upphaf veðurathuguna] = @Original_Upphaf_veðurathuguna) AND ([Stöðvanúmer] = @Original_Stöðvanúmer))</CommandText>
@@ -218,7 +219,7 @@ SELECT Id, Nafn, Tegund, [WMO-Númer], Skammsstöfun, Spásvæði, Staðsetning,
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK__Stadir__Spásvæði__36B12243" msdata:parent="Landshlutar" msdata:child="Stadir" msdata:parentkey="Id" msdata:childkey="Spásvæði" msprop:Generator_UserChildTable="Stadir" msprop:Generator_ChildPropName="GetStadirRows" msprop:Generator_UserRelationName="FK__Stadir__Spásvæði__36B12243" msprop:Generator_ParentPropName="LandshlutarRow" msprop:Generator_RelationVarName="relationFK__Stadir__Spásvæði__36B12243" msprop:Generator_UserParentTable="Landshlutar" />
+      <msdata:Relationship name="FK__Stadir__Spásvæði__1273C1CD" msdata:parent="Landshlutar" msdata:child="Stadir" msdata:parentkey="Id" msdata:childkey="Spásvæði" msprop:Generator_UserChildTable="Stadir" msprop:Generator_ChildPropName="GetStadirRows" msprop:Generator_UserRelationName="FK__Stadir__Spásvæði__1273C1CD" msprop:Generator_ParentPropName="LandshlutarRow" msprop:Generator_RelationVarName="relationFK__Stadir__Spásvæði__1273C1CD" msprop:Generator_UserParentTable="Landshlutar" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

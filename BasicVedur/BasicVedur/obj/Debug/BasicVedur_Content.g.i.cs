@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("allarve%c3%b0urst%c3%b6%c3%b0ar.mdf")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("allarve%c3%b0urst%c3%b6%c3%b0ar_log.ldf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("stadir_landshlutar.sql")]
 
 

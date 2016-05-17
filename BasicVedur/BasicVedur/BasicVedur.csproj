@@ -71,6 +71,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="DataBaseClass.cs" />
+    <Compile Include="VedurDataSet.cs">
+      <DependentUpon>VedurDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="VedurDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -144,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="pinni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stadir_landshlutar.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

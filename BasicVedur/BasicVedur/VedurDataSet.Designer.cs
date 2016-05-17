@@ -28,7 +28,7 @@ namespace BasicVedur {
         
         private StadirDataTable tableStadir;
         
-        private global::System.Data.DataRelation relationFK__Stadir__Spásvæði__36B12243;
+        private global::System.Data.DataRelation relationFK__Stadir__Spásvæði__1273C1CD;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -220,7 +220,7 @@ namespace BasicVedur {
                     this.tableStadir.InitVars();
                 }
             }
-            this.relationFK__Stadir__Spásvæði__36B12243 = this.Relations["FK__Stadir__Spásvæði__36B12243"];
+            this.relationFK__Stadir__Spásvæði__1273C1CD = this.Relations["FK__Stadir__Spásvæði__1273C1CD"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -235,10 +235,10 @@ namespace BasicVedur {
             base.Tables.Add(this.tableLandshlutar);
             this.tableStadir = new StadirDataTable();
             base.Tables.Add(this.tableStadir);
-            this.relationFK__Stadir__Spásvæði__36B12243 = new global::System.Data.DataRelation("FK__Stadir__Spásvæði__36B12243", new global::System.Data.DataColumn[] {
+            this.relationFK__Stadir__Spásvæði__1273C1CD = new global::System.Data.DataRelation("FK__Stadir__Spásvæði__1273C1CD", new global::System.Data.DataColumn[] {
                         this.tableLandshlutar.IdColumn}, new global::System.Data.DataColumn[] {
                         this.tableStadir.SpásvæðiColumn}, false);
-            this.Relations.Add(this.relationFK__Stadir__Spásvæði__36B12243);
+            this.Relations.Add(this.relationFK__Stadir__Spásvæði__1273C1CD);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -779,7 +779,7 @@ namespace BasicVedur {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public StadirRow AddStadirRow(string Nafn, string Tegund, int _WMO_Númer, string Skammsstöfun, LandshlutarRow parentLandshlutarRowByFK__Stadir__Spásvæði__36B12243, string Staðsetning, double Hæð_yfir_sjó, int Upphaf_veðurathuguna, string Eigandi_stöðvar, int Stöðvanúmer) {
+            public StadirRow AddStadirRow(string Nafn, string Tegund, int _WMO_Númer, string Skammsstöfun, LandshlutarRow parentLandshlutarRowByFK__Stadir__Spásvæði__1273C1CD, string Staðsetning, double Hæð_yfir_sjó, int Upphaf_veðurathuguna, string Eigandi_stöðvar, int Stöðvanúmer) {
                 StadirRow rowStadirRow = ((StadirRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -793,8 +793,8 @@ namespace BasicVedur {
                         Upphaf_veðurathuguna,
                         Eigandi_stöðvar,
                         Stöðvanúmer};
-                if ((parentLandshlutarRowByFK__Stadir__Spásvæði__36B12243 != null)) {
-                    columnValuesArray[5] = parentLandshlutarRowByFK__Stadir__Spásvæði__36B12243[0];
+                if ((parentLandshlutarRowByFK__Stadir__Spásvæði__1273C1CD != null)) {
+                    columnValuesArray[5] = parentLandshlutarRowByFK__Stadir__Spásvæði__1273C1CD[0];
                 }
                 rowStadirRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowStadirRow);
@@ -1053,11 +1053,11 @@ namespace BasicVedur {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public StadirRow[] GetStadirRows() {
-                if ((this.Table.ChildRelations["FK__Stadir__Spásvæði__36B12243"] == null)) {
+                if ((this.Table.ChildRelations["FK__Stadir__Spásvæði__1273C1CD"] == null)) {
                     return new StadirRow[0];
                 }
                 else {
-                    return ((StadirRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Stadir__Spásvæði__36B12243"])));
+                    return ((StadirRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Stadir__Spásvæði__1273C1CD"])));
                 }
             }
         }
@@ -1201,10 +1201,10 @@ namespace BasicVedur {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LandshlutarRow LandshlutarRow {
                 get {
-                    return ((LandshlutarRow)(this.GetParentRow(this.Table.ParentRelations["FK__Stadir__Spásvæði__36B12243"])));
+                    return ((LandshlutarRow)(this.GetParentRow(this.Table.ParentRelations["FK__Stadir__Spásvæði__1273C1CD"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Stadir__Spásvæði__36B12243"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Stadir__Spásvæði__1273C1CD"]);
                 }
             }
         }
@@ -1430,7 +1430,7 @@ namespace BasicVedur.VedurDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::BasicVedur.Properties.Settings.Default.AllarVeðurstöðarConnectionString;
+            this._connection.ConnectionString = global::BasicVedur.Properties.Settings.Default.vedurDataBaseConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1771,7 +1771,7 @@ SELECT Id, Nafn, Tegund, [WMO-Númer], Skammsstöfun, Spásvæði, Staðsetning,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::BasicVedur.Properties.Settings.Default.AllarVeðurstöðarConnectionString;
+            this._connection.ConnectionString = global::BasicVedur.Properties.Settings.Default.vedurDataBaseConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
