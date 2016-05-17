@@ -1,0 +1,70 @@
+﻿<Window x:Name="mainBackWindow" x:Class="BasicVedur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicVedur"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="380" Width="525" BorderThickness="0" Background="#FFFCFCFC">
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate x:Key="LandshlutarTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <!--<ColumnDefinition Width="75" />
+                        <ColumnDefinition Width="75" />-->
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{Binding Path=Nafn}" />
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="StadirTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="160" />
+                        <!--<ColumnDefinition Width="75" />
+                        <ColumnDefinition Width="75" />-->
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{Binding Path=Nafn}" />
+                    <!--<TextBlock Grid.Column="1" Text="{Binding Path=Skammsstöfun}" />-->
+                    <!--<TextBlock Grid.Column="2" Text="{Binding Path=Stöðvanúmer}" />-->
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="172*"/>
+        </Grid.ColumnDefinitions>
+       
+
+        <Button x:Name="getInfoButton" Content="Get Info" HorizontalAlignment="Left" Margin="20,201,0,0" VerticalAlignment="Top" Width="90" Click="getInfoButton_Click" IsDefault="True" Grid.Column="1" Height="20"/>
+        <TextBox x:Name="stationNrBox" HorizontalAlignment="Left" Height="23" Width="60" Margin="56,47,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" TextChanged="stationNrBox_TextChanged" TextAlignment="Center" Text="{Binding ElementName=stadirC, Path=SelectedItem.Stöðvanúmer}" Grid.Column="2" Visibility="Hidden"/>
+        <Label x:Name="StationNumberLabel1" Content="Falinn gluggi hérna" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="26" Width="124" Grid.Column="2"/>
+
+        <TextBox x:Name="timiTextBox" HorizontalAlignment="Left" Height="23" Margin="174,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="stationDisplayLabel1" Content="Station Picked" HorizontalAlignment="Left" Margin="168,41,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="85"/>
+        <TextBox x:Name="stationNumDisplayBox" HorizontalAlignment="Left" Height="23" Margin="251,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="53" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="Location" Content="Location" HorizontalAlignment="Left" Margin="159,68,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="55"/>
+
+        <TextBox x:Name="stadurTextBox" HorizontalAlignment="Left" Height="23" Margin="214,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="temperatureLabel" Content="Temperature" HorizontalAlignment="Left" Margin="162,99,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="78"/>
+        <TextBox x:Name="temperatureTextBox" HorizontalAlignment="Left" Height="23" Margin="244,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="windLabel2" Content="Windspeed" HorizontalAlignment="Left" Margin="129,133,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="70"/>
+        <TextBox x:Name="windSpeedTextBox" HorizontalAlignment="Left" Height="23" Margin="196,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="metrePerSecLabel" Content="m/s from" HorizontalAlignment="Left" Margin="229,133,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="59"/>
+        <TextBox x:Name="windDirectionTextBox" HorizontalAlignment="Left" Height="23" Margin="286,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" TextAlignment="Center" IsEnabled="False" Grid.Column="2"/>
+        <Label x:Name="ShortDescriptionLabel" Content="Short Description" HorizontalAlignment="Left" Margin="94,161,0,0" VerticalAlignment="Top" Grid.Column="2" Height="26" Width="102"/>
+        <TextBox x:Name="shortDescriptionTextBox" HorizontalAlignment="Left" Height="23" Margin="196,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False" TextAlignment="Center" Grid.Column="2"/>
+        <TextBox x:Name="TextDescriptionTextBox" HorizontalAlignment="Left" Height="86" Margin="44,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" IsEnabled="False" TextAlignment="Center" Grid.Column="2"/>
+        <Button x:Name="getTextButton" Content="Get Text Info" HorizontalAlignment="Left" Margin="76,317,0,0" VerticalAlignment="Top" Width="120" Click="getTextButton_Click" Grid.Column="2" Height="20"/>
+        <TextBox x:Name="desciptionCreatedTextBox" HorizontalAlignment="Left" Height="17" Margin="214,317,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontSize="8" TextAlignment="Center" Grid.Column="2"/>
+        <Image x:Name="nokkrarStodvar_JPG" Margin="-256,75,48.5,88" Source="nokkrarStodvar.JPG" Stretch="Fill"/>
+        <ComboBox x:Name="LandshlutarL" ItemTemplate= "{DynamicResource LandshlutarTemplate}" HorizontalAlignment="Left" Margin="20.5,114,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="LandshlutarL_SelectionChanged" Height="22" Grid.Column="1"/>
+        <ComboBox x:Name="stadirC" ItemTemplate= "{DynamicResource StadirTemplate}"  HorizontalAlignment=" Left" Margin="20.5,178,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="stadirC_SelectionChanged_1" Height="22" Grid.Column="1"/>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="20,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged" Text="{Binding SelectedItem.Id, ElementName=LandshlutarL, Mode=OneWay}" Visibility="Hidden"/>
+        <Label x:Name="StationNumberLabel1_Copy" Content="Falinn gluggi hérna" HorizontalAlignment="Left" Margin="20,216,0,0" VerticalAlignment="Top" Height="26" Width="124" Grid.Column="1"/>
+
+    </Grid>
+</Window>

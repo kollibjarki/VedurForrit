@@ -1,0 +1,14 @@
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+\\MORDOR.ntv.local\NemendurData$\davidg.v16\Documents\Visual Studio 2015\myProjectsDiddi\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb

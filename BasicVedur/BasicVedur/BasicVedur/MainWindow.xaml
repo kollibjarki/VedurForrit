@@ -1,0 +1,35 @@
+﻿<Window x:Name="mainBackWindow" x:Class="BasicVedur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicVedur"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="380" Width="525" BorderThickness="0" Background="#FFFCFCFC">
+    <Grid>
+
+        <Button x:Name="getInfoButton" Content="Get Info" HorizontalAlignment="Left" Margin="216,75,0,0" VerticalAlignment="Top" Width="90" Click="getInfoButton_Click" IsDefault="True"/>
+        <TextBox x:Name="stationNrBox" HorizontalAlignment="Left" Height="23" Width="60" Margin="232,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="stationNrBox_TextChanged" TextAlignment="Center"/>
+        <Label x:Name="StationNumberLabel1" Content="Enter Station Number" HorizontalAlignment="Left" Margin="108,45,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="timiTextBox" HorizontalAlignment="Left" Height="23" Margin="350,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="stationDisplayLabel1" Content="Station Picked" HorizontalAlignment="Left" Margin="344,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="stationNumDisplayBox" HorizontalAlignment="Left" Height="23" Margin="427,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="53" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="Location" Content="Location" HorizontalAlignment="Left" Margin="335,68,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="stadurTextBox" HorizontalAlignment="Left" Height="23" Margin="390,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="temperatureLabel" Content="Temperature" HorizontalAlignment="Left" Margin="338,99,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="temperatureTextBox" HorizontalAlignment="Left" Height="23" Margin="420,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="windLabel2" Content="Windspeed" HorizontalAlignment="Left" Margin="288,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="windSpeedTextBox" HorizontalAlignment="Left" Height="23" Margin="355,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="metrePerSecLabel" Content="m/s from" HorizontalAlignment="Left" Margin="388,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="windDirectionTextBox" HorizontalAlignment="Left" Height="23" Margin="445,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="45" TextAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="ShortDescriptionLabel" Content="Short Description" HorizontalAlignment="Left" Margin="270,161,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="shortDescriptionTextBox" HorizontalAlignment="Left" Height="23" Margin="372,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False" TextAlignment="Center"/>
+        <TextBox x:Name="TextDescriptionTextBox" HorizontalAlignment="Left" Height="86" Margin="220,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" IsEnabled="False" TextAlignment="Center"/>
+        <Button x:Name="getTextButton" Content="Get Text Info" HorizontalAlignment="Left" Margin="252,317,0,0" VerticalAlignment="Top" Width="120" Click="getTextButton_Click"/>
+        <TextBox x:Name="desciptionCreatedTextBox" HorizontalAlignment="Left" Height="17" Margin="390,317,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontSize="8" TextAlignment="Center"/>
+        <Image x:Name="nokkrarStodvar_JPG" Margin="2,76,301,87" Source="nokkrarStodvar.JPG" Stretch="Fill"/>
+
+    </Grid>
+</Window>

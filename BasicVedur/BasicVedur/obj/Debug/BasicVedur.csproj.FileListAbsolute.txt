@@ -1,0 +1,90 @@
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+c:\users\audio monster\documents\visual studio 2015\Projects\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+C:\Users\Audio Monster\Desktop\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+F:\VeðurForrit\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+F:\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+F:\VeðurForrit\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+E:\(R)VeðurSafnið\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+E:\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+E:\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+C:\Users\kolli\Documents\Visual Studio 2015\Projects\allt\(R)VeðurSafnið\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+\\MORDOR.ntv.local\NemendurData$\kolbeinns.v16\Desktop\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+F:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+F:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+F:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+F:\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+F:\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+F:\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+F:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
+E:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe.config
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.exe
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.pdb
+E:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.exe
+E:\BasicVedur\BasicVedur\bin\Debug\BasicVedur.pdb
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csprojResolveAssemblyReference.cache
+E:\BasicVedur\BasicVedur\obj\Debug\MainWindow.g.cs
+E:\BasicVedur\BasicVedur\obj\Debug\App.g.cs
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.cache
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur_MarkupCompile.lref
+E:\BasicVedur\BasicVedur\obj\Debug\MainWindow.baml
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.g.resources
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.Properties.Resources.resources
+E:\BasicVedur\BasicVedur\obj\Debug\BasicVedur.csproj.GenerateResource.Cache
